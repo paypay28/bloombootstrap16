@@ -1,0 +1,31 @@
+/* using margin padding float to design template */
+
+:root{
+    --prim:#26292e;
+    --sec:rgb(226, 125, 142);
+    --tert:white;
+    --btnColor:#213349;
+    --font1:"Sofia", cursive;
+    --font2:"Roboto", sans-serif;
+}
+
+*{box-sizing: border-box;}
+
+/* tag names */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--tert);
+}
+
+/* classes */
+
+
+#headerSection1 {
+    background-color: var(--prim);
+}
+
+#mainSection1{
+    background-color: var(--sec);
+}
